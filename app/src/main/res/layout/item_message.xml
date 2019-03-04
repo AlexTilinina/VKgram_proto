@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relative_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="@dimen/margin_small"
+    android:paddingBottom="@dimen/margin_small"
+    android:paddingEnd="@dimen/padding_medium"
+    android:paddingStart="@dimen/padding_medium">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="@dimen/size_image_list"
+        android:layout_height="@dimen/size_image_list"
+        android:src="@drawable/camera_b"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/iv_online"
+        android:layout_width="@dimen/size_item_icon"
+        android:layout_height="@dimen/size_item_icon"
+        android:layout_alignBottom="@id/iv_photo"
+        android:layout_alignEnd="@id/iv_photo"
+        android:padding="2dp"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription"/>
+    <ImageView
+        android:id="@+id/iv_app_from"
+        android:layout_width="@dimen/size_item_icon"
+        android:layout_height="@dimen/size_item_icon"
+        android:layout_toEndOf="@id/iv_photo"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:background="@drawable/ic_from_background"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_medium"
+        android:textColor="@color/vk_black"
+        android:maxWidth="@dimen/text_line_width_name"
+        android:ellipsize="end"
+        android:lines="1"
+        android:layout_toEndOf="@id/iv_app_from"
+        tools:text="Name Surname" />
+
+    <!--TODO найти иконку зачеркнутого микрофона-->
+    <ImageView
+        android:id="@+id/iv_muted"
+        android:layout_width="@dimen/size_item_icon"
+        android:layout_height="@dimen/size_item_icon"
+        android:layout_toStartOf="@id/tv_time"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        tools:text="17 дек 2017"/>
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_toEndOf="@id/iv_photo"
+        android:maxWidth="@dimen/text_line_width_message"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginStart="@dimen/margin_small"
+        android:ellipsize="end"
+        android:lines="1"
+        tools:text="Message text message text message text message"/>
+
+    <TextView
+        android:id="@+id/tv_unread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ic_unread"
+        android:layout_marginTop="@dimen/margin_xsmall"
+        android:layout_marginStart="@dimen/margin_small"
+        android:padding="@dimen/padding_xsmall"
+        android:layout_below="@id/tv_name"
+        android:textStyle="bold"
+        tools:text="228"/>
+</RelativeLayout>

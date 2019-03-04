@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">VKgram</string>
+
+    <string name="drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="drawer_close" translatable="false">Close navigation drawer</string>
+
+    <!--Drawer-->
+    <string name="settings">Settings</string>
+    <string name="login_vk">Login VK</string>
+    <string name="login_telegram">Login Telegram</string>
+    <string name="new_conversation">New conversation</string>
+    <string name="new_group">New group</string>
+    <string name="new_channel">New channel</string>
+    <string name="saved_messages">Saved messages</string>
+    <string name="info">Info</string>
+
+    <!--Toasts-->
+    <string name="auth_error">Authorization error</string>
+    <string name="net_error">Connection error</string>
+
+    <!--Popups-->
+    <string name="logout">Logout</string>
+
+    <!--Months-->
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <!--Hints-->
+    <string name="message">Enter message</string>
+
+    <string name="sending">Sending…</string>
+    <string name="vk">VK</string>
+    <string name="telegram">Telegram</string>
+    <string name="phone_number">12345678900</string>
+    <string name="sing_in">Sing In</string>
+    <string name="code">Code</string>
+    <string name="send_code">Send code</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="refresh">Refresh</string>
+
+    <integer name="com_vk_sdk_AppId">6461780</integer>
+</resources>

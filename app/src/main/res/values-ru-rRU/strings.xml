@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VKgram</string>
+    <string name="settings">Настройки</string>
+    <string name="login_vk">Зайти в ВК</string>
+    <string name="login_telegram">Зайти в Телеграм</string>
+    <string name="new_conversation">Новая беседа</string>
+    <string name="new_group">Новая группа</string>
+    <string name="new_channel">Создать канал</string>
+    <string name="saved_messages">Сохраненные сообщения</string>
+    <string name="info">Информация</string>
+
+    <string-array name="months">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+
+    <string name="auth_error">Ошибка авторизации</string>
+    <string name="logout">Выйти</string>
+    <string name="net_error">Ошибка соединения</string>
+    <string name="message">Введите сообщение</string>
+    <string name="sending">Отправка…</string>
+</resources>

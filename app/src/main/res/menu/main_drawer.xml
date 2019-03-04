@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--TODO: сделать профили вк и тг с аватарками и иконками-->
+    <group
+        android:id="@+id/group_profile"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_vk_profile"
+            android:title="@string/login_vk"/>
+
+        <item
+            android:id="@+id/menu_tg_profile"
+            android:title="@string/login_telegram"/>
+    </group>
+
+    <item android:title="@string/vk">
+        <menu>
+            <group android:checkableBehavior="single">
+               <!-- <item
+                    android:id="@+id/menu_vk_conversation"
+                    android:title="@string/new_conversation"/>-->
+
+                <item
+                    android:id="@+id/menu_vk_saved_messages"
+                    android:title="@string/saved_messages"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/telegram">
+        <menu>
+            <group android:checkableBehavior="single">
+               <!-- <item
+                    android:id="@+id/menu_tg_group"
+                    android:title="@string/new_group"/>
+
+                <item
+                    android:id="@+id/menu_tg_channel"
+                    android:title="@string/new_channel"/>-->
+
+                <item
+                    android:id="@+id/menu_tg_saved_messages"
+                    android:title="@string/saved_messages"/>
+            </group>
+        </menu>
+    </item>
+<!--
+    <group
+        android:id="@+id/group_general"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/settings"
+            android:title="@string/settings"/>
+
+        <item
+            android:id="@+id/info"
+            android:title="@string/info"/>
+    </group>-->
+</menu>
